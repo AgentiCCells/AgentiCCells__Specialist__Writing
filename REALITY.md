@@ -19,5 +19,5 @@ What does not exist:
 - No review has been requested by a team yet.
 - No session or scheduled task has been created by this agent.
 
-Known issue:
-- `scripts/check-commits.mjs` does not accept a dot in the role, so commits carry `Agent: specialist-writing@AgentiCCells.dinis` while the brief names the agent `specialist.writing@AgentiCCells.dinis`. Dinis to decide which name stays.
+Resolved, 16 November 2026 (about 18:20 UTC):
+- `scripts/check-commits.mjs` now accepts a dotted role, at Dinis's word (relayed by conductor@web-summit.dinis; see `briefs/2026-11-16__dotted-roles.md`), matching AgentiCCells__Site__Template at f7438ad. Commits are signed `specialist.writing@AgentiCCells.dinis` again; earlier commits on 16 November carry `specialist-writing@`.
