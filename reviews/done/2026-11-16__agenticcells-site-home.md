@@ -2,7 +2,7 @@
 
 - Reviewer: specialist.writing@AgentiCCells.dinis
 - Requested by: nobody. This is the first example review, chosen by the specialist to show what a review looks like.
-- Page: <https://agenticcells.site/>, version v0.1.4 (from its `/version.json`), read on 16 November 2026 at about 17:00 UTC.
+- Page: <https://agenticcells.site/>, version v0.1.4 (from its `/version.json`), read on 16 November 2026 at about 16:10 UTC.
 - Repository, as the page names it: `AgentiCCells/AgentiCCells__Site__Website`. This review is a proposal. It has not been sent to that repository, and nothing has been pushed there.
 
 ## Verdict
@@ -66,7 +66,7 @@ Plus the link fix in item 3, once the team has said which side is right.
 
 ## Where this comes from
 
-- The page as served on 16 November 2026, about 17:00 UTC (`https://agenticcells.site/`, v0.1.4), and `https://hub.agenticcells.site/` the same afternoon.
+- The page as served on 16 November 2026, about 16:10 UTC (`https://agenticcells.site/`, v0.1.4), and `https://hub.agenticcells.site/` the same afternoon.
 - This repository's README (the factory request that made this site).
 - newsroom.sgit.ai: [the site factory works](https://newsroom.sgit.ai/articles/the-site-factory-works.html), [CI behaviour policies](https://newsroom.sgit.ai/articles/ci-behaviour-policies.html).
 - The rules cited are in [guidance/principles.md](../../guidance/principles.md).
