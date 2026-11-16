@@ -7,5 +7,5 @@
   "licence": { "code": "Apache-2.0", "text": "CC BY 4.0" },
   "repository": "https://github.com/AgentiCCells/AgentiCCells__Specialist__Writing",
   "live_address": "https://specialist-writing.agenticcells.site",
-  "version_from": "/version.json"
+  "version_from": "https://specialist-writing.agenticcells.site/version.json"
 }
