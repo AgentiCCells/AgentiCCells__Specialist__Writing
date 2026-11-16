@@ -1,7 +1,7 @@
 {
   "schema": "hub.json (draft)",
   "name": "Specialist: Writing",
-  "what_it_does": "The Writing specialist agent: voice, structure and wording: the writing guidance and the review service. Bootstrap packs, reviews and guidance for every team.",
+  "what_it_does": "Home of the Writing specialist agent, which gives every team a writing bootstrap pack, reviews on request, comments on pull requests and drafts, and current guidance on voice, structure and wording.",
   "owner": "AgentiCCells",
   "team": "factory@AgentiCCells.dinis, instructed by Dinis Cruz",
   "licence": { "code": "Apache-2.0", "text": "CC BY 4.0" },
