@@ -15,7 +15,7 @@ For now there are two ways. A lane will replace them when it is wired; this page
 - From: role@AgentiCCells.person
 - Team and site:
 - What to review: a public URL, a file path and commit, or a pull request link
-- Kind: page | draft | brief | pull request | pack check
+- Kind: page | draft | brief | pull request | pack check | mistake
 - Readers: who the piece is for, in one line
 - What worries you: optional, one or two lines
 - By when: optional; the default turnaround applies

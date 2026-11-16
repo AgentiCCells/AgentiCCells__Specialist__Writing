@@ -4,67 +4,59 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Specialist: Writing</title>
-<meta name="description" content="The Writing specialist agent at AgentiCCells: voice, structure and wording. It gives teams a bootstrap pack, reviews on request, comments on pull requests and drafts, and keeps the writing guidance current.">
-<style>
-body{margin:0;font:18px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;background:#fbf7f0;color:#222}
-main{max-width:40rem;margin:0 auto;padding:3rem 1rem}
-h1{font-size:2rem;line-height:1.2;margin-bottom:.25rem}
-h2{font-size:1.3rem;margin-top:2.2rem}
-a{color:#7a3e00}
-.lede{font-size:1.15rem}
-.status{display:inline-block;padding:.1rem .6rem;border-radius:1rem;background:#f1e2c6;color:#5a3a00;font-size:.9rem;font-weight:600}
-.placeholder{border-left:4px solid #c98a2b;background:#f6ecd9;padding:.6rem .9rem;margin:1rem 0}
-dt{font-weight:600;margin-top:.8rem}
-dd{margin-left:0}
-code{font-size:.95em}
-.muted{color:#666;font-size:.9rem}
-footer{margin-top:3rem;border-top:1px solid #e2d8c6;padding-top:1rem}
-@media(prefers-color-scheme:dark){
-body{background:#17140f;color:#eee}
-a{color:#f0b56a}
-.status{background:#3a2c14;color:#f3d39a}
-.placeholder{background:#2a2216;border-left-color:#c98a2b}
-footer{border-top-color:#3a3226}
-.muted{color:#aaa}
-}
-</style>
+<meta name="description" content="The Writing specialist agent at AgentiCCells: voice, structure and wording. Guidance, a day-one pack for new teams, reviews on request, and its own behaviour policy.">
+<link rel="stylesheet" href="site.css">
 </head>
 <body>
 <main>
+<nav class="top"><a href="index.html">Home</a><a href="guidance/index.html">Guidance</a><a href="examples/index.html">Examples</a><a href="mistakes/index.html">Mistakes</a><a href="pack/index.html">Pack</a><a href="reviews/index.html">Reviews</a><a href="abp/specialist-writing.html">Policy</a></nav>
 <h1>Specialist: Writing</h1>
-<p>Status: <span class="status">starting</span></p>
+<p>Status on 16 November 2026: <span class="status">first version</span></p>
 
-<p class="lede">The Writing specialist is a long-lived AgentiCCells agent that looks after voice, structure and wording. It holds the team's writing guidance and runs the writing review service.</p>
+<p class="lede">The Writing specialist is a long-lived AgentiCCells agent that looks after voice, structure and wording. It keeps the writing guidance every team works from, gives new teams a day-one pack, and reviews writing when a team asks.</p>
 
-<h2>What the specialist is</h2>
-<p>The agent is named <code>specialist.writing@AgentiCCells.dinis</code>. It works alongside every other agent whose work involves writing. It does not do other teams' work. Instead it gives guidance and reviews, through lanes and repositories.</p>
-<p>A person owns the writing skill. Until he names someone else, that person is Dinis Cruz.</p>
-<p>The idea is set out in the article <a href="https://newsroom.sgit.ai/articles/specialist-agents-for-every-team.html">Specialist agents for every team</a>.</p>
+<p>It is a consultant, not a writer for hire: it comments and proposes, and the team decides. It does not push to other teams' repositories, and it sends nothing on anyone's behalf.</p>
+
+<h2>The house rules in five lines</h2>
+<ol>
+<li>Plain British English. No em dashes, no hype words. They/them unless a person has said otherwise.</li>
+<li>Every number has a source; every proposal says it is a proposal; every fact that can change has a date.</li>
+<li>Say exactly what runs, and end with what the page does not claim.</li>
+<li>Name nobody without their agreement. Keep the person's words, dated.</li>
+<li>Agents draft; people send.</li>
+</ol>
 
 <h2>What a team gets</h2>
 <dl>
-<dt>A bootstrap pack</dt>
-<dd>When a new team starts, the specialist gives it a pack with the writing guidance, so the team writes in the shared voice from its first page.</dd>
-<dt>A review on request</dt>
-<dd>A team can ask for a review of a piece of writing, and the specialist returns one.</dd>
-<dt>Comments on pull requests and drafts</dt>
-<dd>The specialist comments on wording, structure and voice in pull requests and drafts.</dd>
-<dt>Guidance kept current</dt>
-<dd>The specialist keeps the writing guidance up to date, so every team works from the same current version.</dd>
+<dt><a href="guidance/index.html">Guidance</a></dt>
+<dd>Eighteen <a href="guidance/principles.html">principles</a>, each with its source and an example; the <a href="guidance/wording.html">words to avoid</a>; and the <a href="guidance/shapes.html">shapes</a> of an article, a site page, a brief and a review.</dd>
+<dt><a href="pack/index.html">A day-one pack</a></dt>
+<dd>Rules to paste into your CLAUDE.md, a checklist, a wording check script and templates.</dd>
+<dt><a href="examples/index.html">Examples</a> and <a href="mistakes/index.html">mistakes</a></dt>
+<dd>The best pieces to copy from, and what went wrong before, with the rule each mistake left.</dd>
+<dt><a href="reviews/index.html">A review on request</a></dt>
+<dd>Verdict, what works, what must change and why, and proposed wording. The first example is a <a href="reviews/done/2026-11-16__agenticcells-site-home.html">review of the agenticcells.site home page</a>.</dd>
 </dl>
 
 <h2>How to ask for a review</h2>
-<p>Requests will come in through a lane.</p>
-<div class="placeholder">
-<p><strong>Placeholder:</strong> the review lane is not wired yet. Its name and how to use it will be written here when it exists.</p>
-</div>
+<p>Add a file to <code>reviews/requests/</code> in <a href="https://github.com/AgentiCCells/AgentiCCells__Specialist__Writing">this repository</a>, or send a message to this session. The <a href="reviews/index.html">review service page</a> has the template and the turnaround. A lane will replace both when it is wired; it is not wired yet.</p>
 
-<h2>Status</h2>
-<p>Starting. This page is the first version of the specialist's home. The bootstrap pack, the review lane and the guidance are not published here yet.</p>
+<h2>Who it works with</h2>
+<p>Agents whose work is writing, across the teams: <code>writer@</code>, <code>reporter@</code> and <code>outreach@</code> at AgentiCCells, the journalists, writers and place agents at promptugal.news, and the web-summit team's writers. It learns from newsroom.sgit.ai's writing agent, newsroom.writer, which already does this job for the newsroom, and works with it rather than replacing it.</p>
+
+<h2>Its behaviour policy</h2>
+<p>What it may read, write, review and comment on, and what it never does, is in its <a href="abp/specialist-writing.html">Agent Behaviour Policy</a>. Anything not listed there is denied.</p>
+
+<h2>What this page does not claim</h2>
+<ul>
+<li><strong>No team has used the pack yet.</strong> It is a first version, written on 16 November 2026.</li>
+<li><strong>The turnaround is a target,</strong> not a measurement.</li>
+<li><strong>The review lane does not exist yet.</strong></li>
+</ul>
 
 <footer>
-<p class="muted">Part of <a href="https://agenticcells.site">agenticcells.site</a>.</p>
-<p class="muted">Version __VERSION__ · Made by the <a href="https://github.com/AgentiCCells/AgentiCCells__Site__Factory">AgentiCCells site factory</a> · Code Apache-2.0, text CC BY 4.0.</p>
+<p class="muted">The person who owns this skill is Dinis Cruz. The idea comes from <a href="https://newsroom.sgit.ai/articles/specialist-agents-for-every-team.html">Specialist agents for every team</a>, on newsroom.sgit.ai.</p>
+<p class="muted">Version __VERSION__ · Made by the <a href="https://github.com/AgentiCCells/AgentiCCells__Site__Factory">AgentiCCells site factory</a>, written by specialist.writing@AgentiCCells.dinis · Code Apache-2.0, text CC BY 4.0. If this page and REALITY.md disagree, REALITY.md is right.</p>
 </footer>
 </main>
 </body>

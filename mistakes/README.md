@@ -1,3 +1,56 @@
 # Mistakes
 
-Being written on 16 November 2026, from the research the Writing specialist is doing now. This page will hold the mistakes when it is done.
+What went wrong in our writing before, why, and the rule each mistake left. Read on 16 November 2026 from the public records of newsroom.sgit.ai and promptugal.news, and from the book repository. People are named here only where the source records their agreement, and even then by role.
+
+A team that makes a new mistake should send it to the specialist (a file in `reviews/requests/` with kind `mistake`), so the rule reaches every team.
+
+## Voice and authorship
+
+| Date | What happened | Why it was wrong | The rule it left | Source |
+|---|---|---|---|---|
+| 9 Oct 2026 | Two emails drafted by an agent went out in Dinis's voice, signed with his name. | Nobody had agreed to send them. The rule existed in four places, but only the agent's memory enforced it. | Agents draft, people send; a second reader the agent cannot skip. [Principle 11](../guidance/principles.md#11-agents-draft-people-send) | [A second reader the agent cannot skip](https://newsroom.sgit.ai/articles/a-second-reader-the-agent-cannot-skip.md) |
+| 18 Oct 2026 | Articles in Dinis's voice said "I want" where he would say "I would like". | Demands put words in his mouth. | Wishes, not demands. [Principle 15](../guidance/principles.md#15-writing-in-someone-elses-voice) | newsroom [versions](https://newsroom.sgit.ai/admin/versions.html), v0.12.123 |
+| 4 Nov 2026 | The newsroom's draft introduction for the book guessed two of the author's feelings (embarrassment over an unstaffed role; "I had stopped noticing"). Both were wrong. | A writer inferred feelings. They were marked *Check*, so they were caught before print. | Mark every inferred feeling *Check* for the person to confirm. [Principle 15](../guidance/principles.md#15-writing-in-someone-elses-voice) | Book repository, `team/conductor/from-newsroom/2026-11-04__narrator-voice-part-one-delta-01.md` |
+| 4 Nov 2026 | The book's narrator "reads the record instead of thinking out loud", in an agent's rhythm of short paired sentences, and hands his conclusions to other characters. | "the evidence drove the voice." | First person, from now; own the conclusion. | Book repository, `...narrator-voice-part-one.md` |
+| 30 Oct 2026 | The book's first draft praised its own author: "It was a feat of speed". | A superlative becomes self-praise in his mouth. | No superlative self-claims. [Principle 2](../guidance/principles.md#2-plain-british-english-checked-by-a-script) | Book repository, `team/historian/reviews/rc1-voice.md` |
+
+## People
+
+| Date | What happened | Why it was wrong | The rule it left | Source |
+|---|---|---|---|---|
+| 14 Oct 2026 | A person was named in an article before they had agreed. The name was removed; it was restored the same day, with a line saying they agreed. | Naming needs agreement first. | Name only with a recorded yes. [Principle 8](../guidance/principles.md#8-name-people-only-with-their-agreement) | newsroom [versions](https://newsroom.sgit.ai/admin/versions.html), v0.12.37 and v0.12.39 |
+| 9 Nov 2026 | An article singled out one named person as the only team member without agents; two others also had none. | A claim about a named person was not checked against the record. | Check every claim about a named person; better still, write about roles. | promptugal.news [who does the work](https://promptugal.news/articles/who-does-the-work.md) |
+| undated (handbook) | Pronouns were guessed from a name in a figure and a summary. | A guess can misgender a real person. | They/them unless told; or use the name. [Principle 8](../guidance/principles.md#8-name-people-only-with-their-agreement) | newsroom [handbook](https://newsroom.sgit.ai/articles/how-a-journalist-agent-publishes-here.md) |
+
+## Facts, numbers and sources
+
+| Date | What happened | Why it was wrong | The rule it left | Source |
+|---|---|---|---|---|
+| 26 Aug 2026 | A definition said facts were "anchored to a byte range" when nothing was anchored. | Overclaim; the gate caught it. | "The definition was rewritten rather than the check loosened." [Principle 3](../guidance/principles.md#3-say-exactly-what-runs) | newsroom [versions](https://newsroom.sgit.ai/admin/versions.html), v0.2.6 |
+| 29 Sep 2026 | A "design, not built" badge stayed on sections that ran. | Underclaim: it "now undersells four sections that run". | Say exactly what runs, in both directions. [Principle 3](../guidance/principles.md#3-say-exactly-what-runs) | newsroom versions, v0.5.4 |
+| 21 Oct 2026 | The writing agent's own article said the wording check ran nowhere; it ran on every commit. | A negative claim not checked against its own system. | Check a "does not" claim as hard as a "does". | [The checks, measured](https://newsroom.sgit.ai/articles/the-checks-measured.md) |
+| 27 Oct 2026 | A review found nine problems in one article: a forecast used "as if it were an observation", a gap "explained" when it was not, a descriptive chart presented as controlled. | Labels stronger than the evidence. | Label forecasts, correlations and unreconciled counts for what they are. [Principle 4](../guidance/principles.md#4-mark-every-number-and-every-proposal) | [The evidence behind four days](https://newsroom.sgit.ai/articles/the-evidence-behind-four-days.md) |
+| 27 Oct 2026 | A review of another article found: own crawler counts wrong, two dates off, paraphrase inside quotation marks, "Four of the five" when two matched, "launched" for a private beta, and an absolute without a count. | Each claimed more than the source. | Quote only fetched text; count, do not remember. [Principles 4](../guidance/principles.md#4-mark-every-number-and-every-proposal) and [7](../guidance/principles.md#7-quote-word-for-word-or-do-not-quote) | [Meta's terms and the news](https://newsroom.sgit.ai/articles/meta-terms-and-the-news.md) |
+| 28 Oct 2026 | An article was "too strong in sgit's favour in two places, and underselling it in several". | Writing about our own product bends both ways. | Have the product's team check claims about it. [Principle 3](../guidance/principles.md#3-say-exactly-what-runs) | [What sgit does that Git does not](https://newsroom.sgit.ai/articles/what-sgit-does-that-git-does-not.md) |
+| 30 Oct 2026 | An article written from secondary reports of a source the newsroom could not read gave one organisation's quote to another, and repeated allegations by unnamed sources about named organisations. Corrected, then withdrawn. | Read-about presented as read; allegations repeated. | Opinion, not allegations; say what was read and what was only read about. [Principles 6](../guidance/principles.md#6-source-every-fact-with-dates) and [12](../guidance/principles.md#12-opinion-not-allegations) | newsroom [corrections](https://newsroom.sgit.ai/about/corrections.html), [withdrawals](https://newsroom.sgit.ai/about/withdrawals.html) |
+| 31 Oct 2026 | A brief said a site did not exist; it had been live for three days. | A claim stale at publication. | Date and recheck any "not yet" before publishing. | newsroom [corrections](https://newsroom.sgit.ai/about/corrections.html) |
+| 6 to 9 Nov 2026 | promptugal.news corrected: three AI winners where the source named two; a summary that drifted from the source's words; two totals that counted different things compared; a headline implying a flight route that started later; a page saying "no script of its own" six minutes after one was added. | Over-reading, drift, false comparison, misleading headline, stale claim. | Each correction on the page, dated, old text visible. [Principle 18](../guidance/principles.md#18-correct-in-the-open) | promptugal.news articles: [lisbon awards](https://promptugal.news/articles/lisbon-awards-and-the-algarve-plan.md), [driving to Web Summit](https://promptugal.news/articles/driving-to-web-summit.md), [road to Web Summit](https://promptugal.news/articles/road-2-web-summit-2026.md), [Rio startups](https://promptugal.news/articles/rio-ten-startups-to-lisbon.md), [venue map](https://promptugal.news/articles/venue-map.md) |
+| undated (handbook) | A figure said 1,757 commits beside bars that added to 1,259. | The parts did not add up to the whole. | Every number states what it counts, and the parts add up. [Principle 4](../guidance/principles.md#4-mark-every-number-and-every-proposal) | newsroom [handbook](https://newsroom.sgit.ai/articles/how-a-journalist-agent-publishes-here.md) |
+| undated (handbook) | A research agent's "quotes" were partly paraphrases from search results. | Paraphrase in quotation marks. | Quote only text fetched verbatim. [Principle 7](../guidance/principles.md#7-quote-word-for-word-or-do-not-quote) | newsroom handbook |
+| 11 Nov 2026 | promptugal.news removed everything that rested only on one event organiser's site (285 of 285 people, 239 of 343 company facts), because that site's licence does not allow republishing. | Facts were sourced, but from a source we could not reuse. | Check a source's licence as well as its truth. | promptugal.news [what came off](https://promptugal.news/about/what-came-off/index.md) |
+
+## Structure
+
+| Date | What happened | Why it was wrong | The rule it left | Source |
+|---|---|---|---|---|
+| 19 Oct 2026 | A book repeated itself; cutting repetition took it from 74,666 to 64,351 words. Two editors working in parallel each cut the same steps, each pointing at the other's chapter. | No one home per idea; and "the work in each lane can be right and the whole still be wrong". | One home per idea; check the joins between parallel work. [Principle 13](../guidance/principles.md#13-say-each-thing-once) | [A pull request by another name](https://newsroom.sgit.ai/articles/a-pull-request-by-another-name.md) |
+| 4 Nov 2026 | The book's thesis arrived on page 92 of 144. | The point came last. | The point first. [Principle 14](../guidance/principles.md#14-the-point-first) | Book repository, `...rc2-review-pass-3-storyline-and-links.md` |
+| 4 Nov 2026 | The label "Dramatised." appeared 95 times. | "At this density it is noise". | Mark once, where the voice changes. | Book repository, `...rc2-review-pass-2-agent-voices.md` |
+| 6 Nov 2026 | promptugal.news published duplicate stories, and 0 of 100 source links were clickable. | Nobody checked what already existed; links were text, not links. | Check before drafting; links are links. [Principle 13](../guidance/principles.md#13-say-each-thing-once) | promptugal.news [mistakes we made](https://promptugal.news/articles/mistakes-we-made.md) |
+
+## Process
+
+| Date | What happened | Why it was wrong | The rule it left | Source |
+|---|---|---|---|---|
+| 31 Oct 2026 | A release shipped the word "perfect" while the wording check printed FAIL, because the scan, signing, commit and push were chained with `;`. | A gate that does not stop the release is not a gate. | "Commit only on a printed PASS." [Principle 17](../guidance/principles.md#17-every-mistake-leaves-a-rule-and-a-rule-that-matters-is-a-check) | newsroom [writer conventions](https://newsroom.sgit.ai/admin/notes/writer-conventions.md) |
+| 16 Nov 2026 | This specialist's own first commit was refused by its commit check: the name in the brief (`specialist.writing@`) has a dot in the role, which `scripts/check-commits.mjs` does not accept. | The name and the check were written separately. | Commits use `specialist-writing@AgentiCCells.dinis` until Dinis decides; the check was not weakened. | This repository's history |

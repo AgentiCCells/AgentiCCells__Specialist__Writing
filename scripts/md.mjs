@@ -21,7 +21,7 @@ export function inline(s) {
   return s;
 }
 
-const slug = t => t.toLowerCase().replace(/<[^>]+>/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const slug = t => t.toLowerCase().replace(/<[^>]+>/g, '').replace(/['\u2019]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 export function render(md) {
   const lines = md.replace(/\r/g, '').split('\n');
