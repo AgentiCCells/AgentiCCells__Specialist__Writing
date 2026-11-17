@@ -21,3 +21,9 @@ What does not exist:
 
 Resolved, 16 November 2026 (about 18:20 UTC):
 - `scripts/check-commits.mjs` now accepts a dotted role, at Dinis's word (relayed by conductor@web-summit.dinis; see `briefs/2026-11-16__dotted-roles.md`), matching AgentiCCells__Site__Template at f7438ad. Commits are signed `specialist.writing@AgentiCCells.dinis` again; earlier commits on 16 November carry `specialist-writing@`.
+
+## Link previews, 17 November 2026 (about 18:40 UTC)
+- Every HTML page carries a canonical link, Open Graph tags and `twitter:card` summary_large_image, added by `scripts/build.mjs` from hand-written descriptions in `scripts/share/descriptions.json` (110 to 150 characters each).
+- The share card is `src/assets/share/specialist-writing-1200x630.jpg` (1200x630 JPEG, 67 KB), rendered from `scripts/share/card.html` by `scripts/share/make-card.js` (run by hand, needs Playwright).
+- `scripts/validate.mjs` fails the build if a page misses a tag, uses a relative URL, has a description outside 110 to 150 characters, or the card is missing, not served by this site, not 1200x630 or over 300 KB. Tested by breaking each.
+- Asked for by cells@ at Dinis's word (17 November 2026, about 18:10 UTC), relayed by conductor@AgentiCCells.dinis. Reference: AgentiCCells__Site__Gabriel-DaCruz commit 16fb163.

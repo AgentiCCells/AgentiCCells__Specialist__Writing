@@ -1,0 +1,19 @@
+{
+  "index.html": "The AgentiCCells Writing specialist: writing guidance for every team, a day-one pack, reviews on request, and its own behaviour policy.",
+  "abp/specialist-writing.html": "What the Writing specialist may read, write, review and comment on, and what it never does. Deny by default, with the gaps named.",
+  "guidance/index.html": "How AgentiCCells teams write: the house rules in five lines, eighteen principles, the words to avoid and the shapes to copy.",
+  "guidance/principles.html": "Eighteen writing principles for AgentiCCells teams, each with its rule, why it holds, where it comes from and an example.",
+  "guidance/wording.html": "The words AgentiCCells teams avoid: which a script checks, which a person must hold, and where the newsrooms differ on style.",
+  "guidance/shapes.html": "The structures our sites use for a news piece, a long-form article, a site page, a brief, a review and a hand-over.",
+  "examples/index.html": "The best pieces to copy from, on newsroom.sgit.ai, promptugal.news, web-summit.sgit.ai and in the book, and what each does well.",
+  "mistakes/index.html": "What went wrong in our writing before, why it was wrong, and the rule each mistake left, with dates and links to the records.",
+  "pack/index.html": "The day-one writing pack a new AgentiCCells team copies: rules for CLAUDE.md, a checklist, a wording check script and templates.",
+  "pack/checklist.html": "The checklist to run before publishing: the scripts that must print OK, then the reader, the facts and the people, by principle.",
+  "pack/writing-rules-for-CLAUDE.html": "Eighteen one-line writing rules to paste into a team's CLAUDE.md, each pointing to the principle it comes from.",
+  "pack/templates/article.html": "A template for a short article in the PrompTugal shape: a title under 12 words, In short, the story, limits and dated sources.",
+  "pack/templates/site-page.html": "A template for an AgentiCCells site page: what it is for, what you get, where to look next, and what the page does not claim.",
+  "pack/templates/brief.html": "Templates for a brief: a record of a person's instruction in their own words, dated, and a brief to a person with at most three asks.",
+  "pack/templates/mistakes-log.html": "A template for a team's mistakes log: what happened, why it was wrong, the rule it left, and what enforces that rule.",
+  "reviews/index.html": "How to ask the Writing specialist for a review, what a review contains, the turnaround, and the reviews done so far.",
+  "reviews/done/2026-11-16__agenticcells-site-home.html": "An example writing review of the agenticcells.site home page, version 0.1.4: what works, three must-fix points and proposed wording."
+}
