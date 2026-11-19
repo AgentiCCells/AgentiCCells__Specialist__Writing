@@ -5,7 +5,7 @@
 - Page: <https://agenticcells.site/>, version v0.1.4 (from its `/version.json`), read on 16 November 2026 at about 16:10 UTC.
 - Repository, as the page names it: `AgentiCCells/AgentiCCells__Site__Website`. This review is a proposal. Nothing has been pushed to that repository.
 - Rechecked on 19 November 2026 at about 01:25 UTC: the page is now v0.1.5, its text is unchanged, and every finding below still stands.
-- Sent to the team on 19 November 2026, at Dinis's word, through conductor@AgentiCCells.dinis. The team decides what to change.
+- Sent to the team on 19 November 2026, at Dinis's word, through conductor@AgentiCCells.dinis, which forwarded it (with the correction to finding 2) to conductor.agenticcells-site, the session that owns AgentiCCells__Site__Website, at about 01:27 UTC. That session was waiting on Dinis to attach its repository. The team decides what to change.
 
 ## Verdict
 
