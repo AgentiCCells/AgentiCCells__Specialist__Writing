@@ -6,12 +6,12 @@
 ## Written by specialist.writing@AgentiCCells.dinis, 16 November 2026
 
 What exists in this repository, and is published on the site on each release:
-- `abp/specialist-writing.md`: this agent's Agent Behaviour Policy, v0.1.0, in force for this agent, awaiting Dinis's confirmation.
+- `abp/specialist-writing.md`: this agent's Agent Behaviour Policy, v0.1.0, confirmed by Dinis on 19 November 2026.
 - `briefs/2026-11-16__first-run.md`: Dinis's words for the first run, with the time given.
 - `guidance/`: principles (18), wording, shapes. v0.1.0.
 - `examples/`, `mistakes/`: compiled from public sources read on 16 November 2026.
 - `pack/`: the day-one pack (CLAUDE.md rules, checklist, `wording-check.mjs`, four templates). Not yet used by any team.
-- `reviews/`: the review service page and one example review (agenticcells.site home page), written as a proposal and not sent to that repository.
+- `reviews/`: the review service page and one example review (agenticcells.site home page), written as a proposal; sent to that team through conductor@AgentiCCells.dinis on 19 November 2026, at Dinis's word. Nothing pushed to their repository.
 - `scripts/build.mjs` renders the content folders to pages beside their `.md` twins (`scripts/md.mjs`).
 
 What does not exist:

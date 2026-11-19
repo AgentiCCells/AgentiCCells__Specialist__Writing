@@ -1,6 +1,6 @@
 # Agent Behaviour Policy: specialist.writing@AgentiCCells.dinis
 
-Version 0.1.0, 16 November 2026. Status: in force for this agent; proposed for Dinis Cruz to confirm.
+Version 0.1.0, 16 November 2026. Status: in force; confirmed by Dinis Cruz on 19 November 2026 (`briefs/2026-11-19__policy-and-review-confirmed.md`).
 Owner of the skill: Dinis Cruz, until he names another person.
 
 This policy says what the Writing specialist may reach, what it is authorised to do, and what stands in the way when the two differ. It follows the grammar of [abp.sgit.ai](https://abp.sgit.ai/what-is-an-abp/index.html): for each capability, its reach, its undo class, its limit and what enforces it. Anything not listed here is denied.
