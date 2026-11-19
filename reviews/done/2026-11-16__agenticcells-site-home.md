@@ -30,6 +30,7 @@
    - Line: "The hub, at hub.agenticcells.site, is live. It lists one site today, the AgentiCCells website".
    - Why: the hub itself says it was built on 2026-11-16 and lists one site; the home page has no date to anchor "today" ([guidance: date every fact that can change](../../guidance/principles.md#4-mark-every-number-and-every-proposal)).
    - Proposed: "The hub, at hub.agenticcells.site, is live. On 16 November 2026 it listed one site, the AgentiCCells website."
+   - Update, 19 November 2026, about 01:30 UTC: "today" has already gone stale. The hub now lists 20 cells (9 sites, 6 specialists, a factory, a template, a cell and 2 factory tests), so the sentence is now wrong, not only undated. Proposed instead: "The hub, at hub.agenticcells.site, lists the cells AgentiCCells has made." No count, so it cannot go stale; the hub keeps the count.
 
 3. **The link labelled "The factory's public repository" goes to `AgentiCCells__Website`.**
    - Why: the site factory's repository is `AgentiCCells/AgentiCCells__Site__Factory` (named in this repository's README and in [CI behaviour policies](https://newsroom.sgit.ai/articles/ci-behaviour-policies.html)). Either the label or the target is wrong. A link label must say what the reader gets ([guidance: links say where they go](../../guidance/principles.md#9-links-say-where-they-go)).
@@ -58,7 +59,7 @@
 + <p>Websites made by AgentiCCells cells live here, each on its own subdomain, such as <code>company-x.agenticcells.site</code>, until it moves to its own domain.</p>
 
 - It lists one site today, the AgentiCCells website,
-+ On 16 November 2026 it listed one site, the AgentiCCells website,
++ It lists the cells AgentiCCells has made,
 
 - The idea is that a site is created from a request made in a commit, and then built and published without further steps. Both the factory and its code are public.
 + The factory makes a site from a request committed to its repository: it creates the repository, builds the site and publishes it at its own subdomain, with no further steps. It has run since November 2026. The factory's repository, with its code and its board, is public.
